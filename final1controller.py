@@ -32,7 +32,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.money1.start()#開始程序
 
 
-#######
+#######aaaa
     #按停止
     def stopClicked(self):
         self.ui.pushButton_2.setEnabled(False)
