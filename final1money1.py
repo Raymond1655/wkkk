@@ -319,18 +319,18 @@ class money1(QThread):
                     print(self.t)
                     if self.t==10:
                         print('兩倍')
-                        parta=pyautogui.locateOnScreen('picture/money/14.png',confidence=0.9)
+                        parta=pyautogui.locateOnScreen('picture/money/14.png',confidence=0.98)
                         if parta is None:
-                            partd=pyautogui.locateOnScreen('picture/money/15.png',confidence=0.9)
+                            partd=pyautogui.locateOnScreen('picture/money/15.png',confidence=0.98)
                             if partd is None:
                                 print('兩倍有')
                                 pydirectinput.press('u')
 
                     if self.t==20:
                         print('三倍')
-                        parta=pyautogui.locateOnScreen('picture/money/14.png',confidence=0.9)
+                        parta=pyautogui.locateOnScreen('picture/money/14.png',confidence=0.98)
                         if parta is None:
-                            partd=pyautogui.locateOnScreen('picture/money/15.png',confidence=0.9)
+                            partd=pyautogui.locateOnScreen('picture/money/15.png',confidence=0.98)
                             if partd is None:
                                 print('三倍有')
                                 pydirectinput.press('y')
